@@ -1,4 +1,4 @@
-module github.com/benbarron/PrefixTrie
+module github.com/benbarron/TrieAutoCompletionEngine
 
 go 1.17
 
