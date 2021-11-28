@@ -45,7 +45,7 @@ func (cntrl *SearchController) EnrollWords (ctx *fiber.Ctx) error {
 	return ctx.JSON(fiber.Map{ "message": msg })
 }
 
-func (cntrl *SearchController) AutoComplete (ctx *fiber.Ctx) error {
+func (cntrl *SearchController) SearchTrie (ctx *fiber.Ctx) error {
 	request := SearchTrieRequest{}
 	ctx.BodyParser(&request)
 	id := ctx.Params("id")
