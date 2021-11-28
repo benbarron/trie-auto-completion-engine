@@ -2,8 +2,8 @@
 
 ### Quick start 
 ```shell
-$ git clone https://github.com/benbarron/go-search-engine
-$ cd go-search-engine
+$ git clone https://github.com/benbarron/trie-auto-completion-engine
+$ cd trie-auto-completion-engine
 $ make build 
 $ make run 
 ```
